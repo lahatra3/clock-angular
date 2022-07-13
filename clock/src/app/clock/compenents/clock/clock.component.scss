@@ -40,7 +40,7 @@
     position: absolute;
     width: 1rem;
     height: 1px;
-    background-color: var(--text-color-light);
+    background-color: #008080;
 }
 
 .clock__twelve,
@@ -71,7 +71,7 @@
 .clock__rounder {
     width: .75rem;
     height: .75rem;
-    background-color: var(--first-color);
+    background-color: #008080;
     border-radius: 50%;
     border: 2px solid var(--body-color);
     z-index: var(--z-tooltip);
@@ -123,7 +123,7 @@
 .clock__seconds::before {
     content: '';
     position: absolute;
-    background-color: var(--first-color);
+    background-color: #008080;
     width: .125rem;
     height: 5rem;
     border-radius: .75rem;
