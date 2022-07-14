@@ -1,0 +1,6 @@
+{
+	"appId": "com.exemple.clock",
+	"appName": "clock",
+	"webDir": "dist/clock",
+	"bundledWebRuntime": false
+}

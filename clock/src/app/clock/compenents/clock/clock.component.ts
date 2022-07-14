@@ -55,10 +55,10 @@ export class ClockComponent implements OnInit {
       }
       else ampm = 'AM';
       if(hh == 0) hh = 12;
-      if(hh < 10) hh = `0${ hh }:`;
+      if(hh < 10) hh = `0${ hh }`;
       if(mm < 10) mm = `0${ mm }`;
 
-      this.textHour = `${ hh }`;
+      this.textHour = `${ hh }:`;
       this.textMinutes = `${ mm }`
       this.textAmPm = `${ ampm }`;
       this.dateDay = day.toString();
